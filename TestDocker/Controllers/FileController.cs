@@ -10,18 +10,18 @@ namespace TestDocker.Controllers
         {
             _fileService=new FileService();
         }
-        [HttpGet]
-        [Route("GetFiles")]
-        public ActionResult<List<string>> GetNewerFiles(string folderPath, string fileName)
+
+        [HttpGet("{folderPath}/{fileName}")]
+        public async Task<ActionResult<List<string>>> GetNewerFiles(string folderPath, string fileName)
         {
             try
             {
-                var newerFiles = _fileService.GetNewerFiles(folderPath, fileName);
+                var newerFiles = await _fileService.GetNewerFilesAsync(folderPath, fileName);
                 return Ok(newerFiles);
-
-            }catch(FileNotFoundException)
+            }
+            catch (FileNotFoundException ex)
             {
-                return NotFound();
+                return NotFound(ex.Message);
             }
         }
     }
