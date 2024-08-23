@@ -21,7 +21,7 @@ namespace TestDocker.Service
 
             var newerFiles = new List<string>();
 
-            string command = $"find {folderPath} -type f -newermt @{targetTimestamp} ! -name \"{fileName}\"";
+            string command = $"find {folderPath} -maxdepth 1 -type f -newermt @{targetTimestamp} ! -name \"{fileName}\"";
 
             // Use CliWrap to execute the command
             var result = await Cli.Wrap("/bin/bash")
@@ -38,3 +38,4 @@ namespace TestDocker.Service
         }
     }
 }
+    
