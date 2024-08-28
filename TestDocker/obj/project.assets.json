@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "CliWrap/3.6.6": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/CliWrap.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/CliWrap.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -907,6 +920,26 @@
     }
   },
   "libraries": {
+    "CliWrap/3.6.6": {
+      "sha512": "8/WnYKDjXjqMp9ktCygmeC6kDsmSEKF4riEYNy98+nD3wOKbuxqOjmhiFMalOYlM+mUqfs3SOEowF20+loDZHQ==",
+      "type": "package",
+      "path": "cliwrap/3.6.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cliwrap.3.6.6.nupkg.sha512",
+        "cliwrap.nuspec",
+        "favicon.png",
+        "lib/net462/CliWrap.dll",
+        "lib/net462/CliWrap.xml",
+        "lib/netcoreapp3.0/CliWrap.dll",
+        "lib/netcoreapp3.0/CliWrap.xml",
+        "lib/netstandard2.0/CliWrap.dll",
+        "lib/netstandard2.0/CliWrap.xml",
+        "lib/netstandard2.1/CliWrap.dll",
+        "lib/netstandard2.1/CliWrap.xml"
+      ]
+    },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "sha512": "Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
       "type": "package",
@@ -3379,6 +3412,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "CliWrap >= 3.6.6",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.5",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "System.Net.Http >= 4.3.4"
@@ -3390,11 +3424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AshwinKumarS\\source\\repos\\TestDocker\\TestDocker\\TestDocker.csproj",
+      "projectUniqueName": "E:\\Work\\Test Docker\\Test_Docker\\TestDocker\\TestDocker.csproj",
       "projectName": "TestDocker",
-      "projectPath": "C:\\Users\\AshwinKumarS\\source\\repos\\TestDocker\\TestDocker\\TestDocker.csproj",
+      "projectPath": "E:\\Work\\Test Docker\\Test_Docker\\TestDocker\\TestDocker.csproj",
       "packagesPath": "C:\\Users\\AshwinKumarS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AshwinKumarS\\source\\repos\\TestDocker\\TestDocker\\obj\\",
+      "outputPath": "E:\\Work\\Test Docker\\Test_Docker\\TestDocker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AshwinKumarS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3423,6 +3457,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "CliWrap": {
+            "target": "Package",
+            "version": "[3.6.6, )"
+          },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.19.5, )"

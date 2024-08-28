@@ -30,3 +30,37 @@ C:\Users\AshwinKumarS\source\repos\TestDocker\TestDocker\obj\Debug\net8.0\refint
 C:\Users\AshwinKumarS\source\repos\TestDocker\TestDocker\obj\Debug\net8.0\TestDocker.pdb
 C:\Users\AshwinKumarS\source\repos\TestDocker\TestDocker\obj\Debug\net8.0\TestDocker.genruntimeconfig.cache
 C:\Users\AshwinKumarS\source\repos\TestDocker\TestDocker\obj\Debug\net8.0\ref\TestDocker.dll
+E:\Work\Test Docker\Test_Docker\TestDocker\bin\Debug\net8.0\appsettings.Development.json
+E:\Work\Test Docker\Test_Docker\TestDocker\bin\Debug\net8.0\appsettings.json
+E:\Work\Test Docker\Test_Docker\TestDocker\bin\Debug\net8.0\TestDocker.exe
+E:\Work\Test Docker\Test_Docker\TestDocker\bin\Debug\net8.0\TestDocker.deps.json
+E:\Work\Test Docker\Test_Docker\TestDocker\bin\Debug\net8.0\TestDocker.runtimeconfig.json
+E:\Work\Test Docker\Test_Docker\TestDocker\bin\Debug\net8.0\TestDocker.dll
+E:\Work\Test Docker\Test_Docker\TestDocker\bin\Debug\net8.0\TestDocker.pdb
+E:\Work\Test Docker\Test_Docker\TestDocker\bin\Debug\net8.0\CliWrap.dll
+E:\Work\Test Docker\Test_Docker\TestDocker\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Work\Test Docker\Test_Docker\TestDocker\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Work\Test Docker\Test_Docker\TestDocker\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Work\Test Docker\Test_Docker\TestDocker\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\TestDocker.csproj.AssemblyReference.cache
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\TestDocker.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\TestDocker.AssemblyInfoInputs.cache
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\TestDocker.AssemblyInfo.cs
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\TestDocker.csproj.CoreCompileInputs.cache
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\TestDocker.MvcApplicationPartsAssemblyInfo.cs
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\TestDocker.MvcApplicationPartsAssemblyInfo.cache
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\TestDocker.sourcelink.json
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\staticwebassets.build.json
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\staticwebassets.development.json
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\staticwebassets\msbuild.TestDocker.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\staticwebassets\msbuild.build.TestDocker.props
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TestDocker.props
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TestDocker.props
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\scopedcss\bundle\TestDocker.styles.css
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\TestDocker.csproj.CopyComplete
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\TestDocker.dll
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\refint\TestDocker.dll
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\TestDocker.pdb
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\TestDocker.genruntimeconfig.cache
+E:\Work\Test Docker\Test_Docker\TestDocker\obj\Debug\net8.0\ref\TestDocker.dll
